@@ -1,0 +1,64 @@
+.description {
+    margin-top: 35px;
+    max-width: 360px;
+
+    &__text {
+        font-size: 1.8rem;
+        font-weight: 300;
+        color: #474747;
+        margin: 15px 0;
+    }
+
+    &__price {
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
+    
+}
+
+h4 {
+    font-size: 3rem;  
+    font-weight: 400;
+}
+
+@media  screen and (max-width: 1024px) {
+    .description {
+        max-width: 252px;
+        margin-top: 15px;
+    
+    
+        &__text {
+            font-size: 1.5rem;
+            margin-bottom: 17px;
+    }
+
+        &__price {
+            font-size: 1.5rem;
+        }
+    }
+
+
+    h4 {
+        font-size: 2.5rem;  
+    }
+
+}
+
+@media  screen and (max-width: 768px) {
+    .description {
+        max-width: 320px;
+        margin: 0 0 0 24px;
+        padding-top: 17px;
+        text-align: left;
+
+        &__text {
+            font-size: 2rem;
+            margin: 20px 0;
+        }
+
+        &__price {
+            font-size: 2rem; 
+            
+        }
+    }
+}

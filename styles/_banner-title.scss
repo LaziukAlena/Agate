@@ -1,0 +1,28 @@
+.banner-title {
+    max-width: 914px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 8.5rem;
+}
+
+@media  screen and (max-width: 1024px) {
+    .banner-title {
+        max-width: 697px;    
+    }
+
+    h1 {
+        font-size: 6rem;
+    }
+}
+
+
+@media  screen and (max-width: 768px) {
+    .banner-title {
+        max-width: 329px;    
+    }
+    h1 {
+        font-size: 5rem;
+    }
+}

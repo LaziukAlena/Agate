@@ -1,0 +1,19 @@
+.blog-menu {
+    display: flex;
+    justify-content: center;  
+    margin-bottom: 60px;
+}
+
+@media  screen and (max-width: 1024px) {
+    .blog-menu {
+        margin-bottom: 45px;
+    }
+}
+
+@media  screen and (max-width: 768px) {
+    .blog-menu {
+        flex-direction: column;
+        padding-left:  52px;
+        padding-right: 24px;
+    }
+}    

@@ -1,0 +1,77 @@
+.dishe {
+    text-align: left;
+    width: calc((100% - 2 * 48px) / 3);
+    position: relative; 
+    max-width: 360px;
+       
+     
+    &:not(:last-child) {
+        margin-right: 48px; 
+      }
+    
+    &--red::before {
+        @include pseudo("HOT!", #D33B3B)
+     } 
+
+     &--green::before {
+        @include pseudo("NEW!", #B3E151)
+     } 
+        
+
+     &--orange::before {
+        @include pseudo("HIT!", #E5A434)
+     } 
+        
+}
+
+@media  screen and (max-width: 1024px) {
+   .dishe {
+      width: calc((100% - 2 * 92px) / 3);
+      max-width: 252px;
+   
+      &--red::before {
+         @include pseudo1024("HOT!", #D33B3B)
+      } 
+ 
+      &--green::before {
+         @include pseudo1024("NEW!", #B3E151)
+      } 
+         
+ 
+      &--orange::before {
+         @include pseudo1024("HIT!", #E5A434)
+      }
+
+      &:not(:last-child) {
+         margin-right: 92px; 
+      }  
+   }
+}
+
+@media  screen and (max-width: 768px) {
+   .dishe {
+      max-width: 692px;
+      width: 100%;
+      display: flex;
+
+      &--red::before {
+         @include pseudo768("HOT!", #D33B3B)
+      } 
+ 
+      &--green::before {
+         @include pseudo768("NEW!", #B3E151)
+      } 
+         
+ 
+      &--orange::before {
+         @include pseudo768("HIT!", #E5A434)
+      }
+
+      &:not(:last-of-type) {
+         margin-right: 24px;
+         margin-bottom: 58px;
+      }
+   }
+}
+
+   

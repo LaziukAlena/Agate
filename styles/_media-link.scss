@@ -1,0 +1,20 @@
+.media-link:hover {
+   transform: scale(2);
+}
+.media-link:not(:last-child) {
+    margin-right: 40px;
+} 
+
+.media-link--facebook::before {
+    @include media(url("../icons/fb.svg"));
+ } 
+
+.media-link--twitter::before {
+    @include media(url("../icons/twitter.svg"));
+ } 
+    
+
+.media-link--instagram::before {
+    @include media(url("../icons/instagram.svg"));
+ } 
+  

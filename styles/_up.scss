@@ -1,0 +1,12 @@
+.up {
+    position: fixed;
+    bottom:50px;
+    right:30px;
+
+   & i {
+    font-size: 50px;
+    color: #AE5F3D;
+    background: white;
+    border-radius: 50px;
+   }
+}

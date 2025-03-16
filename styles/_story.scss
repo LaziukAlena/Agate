@@ -1,0 +1,38 @@
+.story {
+    background-color: #F3F7EA;
+    padding: 100px 0;
+
+    &__text {
+        font-size: 3rem;
+        font-weight: 300;
+        max-width: 941px;
+        margin: 0 auto;
+        line-height: 40.74px;
+    }
+}
+
+@media  screen and (max-width: 1024px) {
+    .story {
+        padding: 80px 0;
+    
+
+        &__text {
+            max-width: 602px;
+            font-size: 2.2rem;
+            line-height: 29.88px
+        }
+    }
+}
+
+@media  screen and (max-width: 768px) {
+    .story {
+        padding: 70px 0;
+    
+
+        &__text {
+            max-width: 541px;
+            font-size: 2rem;
+            line-height: 27.16px;
+        }
+    }
+}

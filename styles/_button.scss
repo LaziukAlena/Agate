@@ -1,0 +1,28 @@
+.button {
+    font-size: 2rem;
+
+    &:hover{
+        transform: scale(1.5);
+    }
+
+
+    &--white {   
+        @include button(white, white);
+        
+    }
+
+    &--black {   
+        @include button(black, black);
+    
+    }
+}    
+
+@media  screen and (max-width: 1024px) {
+    .button {
+        width: 248px; 
+        height: 48px;
+        line-height: 48px;
+        font-size: 1.7rem;
+        
+   }
+}

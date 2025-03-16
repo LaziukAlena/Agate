@@ -1,0 +1,52 @@
+.chef {
+    background-color: #F3F7EA;
+    padding: 100px 0;
+    font-weight: 300;
+
+    &__title {
+        font-size: 2.5rem;
+        color: #474747;
+        margin: 30px 0;
+        
+
+    }
+    &__text {
+        
+        max-width: 939px;
+        font-size: 3rem;
+        margin: 0 auto;   
+    }
+}
+
+@media  screen and (max-width: 1024px) {
+    .chef {
+        
+        padding: 80px 0;
+    }
+    .chef__text {
+        
+        max-width: 691px;
+        font-size: 2.2rem;
+        
+    }
+    .chef__title {
+        font-size: 2.2rem;
+    }
+}
+
+@media  screen and (max-width: 768px) {
+    .chef {
+        
+        padding: 70px 0;
+    }
+    .chef__text {
+        
+        width: 626px;
+        font-size: 2rem;
+        
+    }
+    .chef__title {
+        font-size: 2rem;
+        margin: 20px 0;
+    }
+}

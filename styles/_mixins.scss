@@ -1,0 +1,87 @@
+@mixin paragraf-title($color) {
+    font-size: 2.5rem;
+    font-weight: 300;
+    color:$color;
+}
+ 
+@mixin button($br-color, $color) {
+     width: 312px; 
+     height: 60px;
+     line-height: 60px;
+     border-radius: 30px;
+     border: 2px solid;
+     text-decoration: none;
+     font-weight: 600;
+     display: inline-block;
+     border-color:$br-color ;
+     text-align: center;
+     color: $color;
+     margin: 0 auto;
+}
+ 
+@mixin paragraf {
+     font-size: 3rem;
+     font-weight: 300;
+}
+
+@mixin pseudo ($content, $br-color) {
+    content: $content;
+    width: 58px;
+    height: 58px; 
+    border-radius: 50%;
+    background-color: $br-color;
+    position: absolute;
+    top: -25px;
+    left: -25px;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-family: "Source Serif Pro";
+    color: white;
+    line-height: 58px;
+}
+
+@mixin pseudo1024 ($content, $br-color) {
+    content: $content;
+    width: 46px;
+    height: 46px; 
+    border-radius: 50%;
+    background-color: $br-color;
+    position: absolute;
+    top: -23px;
+    left: -23px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: "Source Serif Pro";
+    color: white;
+    line-height: 46px;
+}
+
+@mixin pseudo768 ($content, $br-color) {
+    content: $content;
+    width: 56px;
+    height: 56px; 
+    border-radius: 50%;
+    background-color: $br-color;
+    position: absolute;
+    top: -25px;
+    left: -25px;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 600;
+    font-family: "Source Serif Pro";
+    color: white;
+    line-height: 56px;
+}
+
+@mixin media ($br-image) {
+    content: " ";
+    width: 50px;
+    height: 50px;
+    display: block;
+    background-image: $br-image;
+    margin: calc(50% - 25px) auto 0;  
+}
+
+
