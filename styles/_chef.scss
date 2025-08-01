@@ -23,30 +23,30 @@
         
         padding: 80px 0;
     }
-    .chef__text {
-        
-        max-width: 691px;
-        font-size: 2.2rem;
-        
-    }
-    .chef__title {
-        font-size: 2.2rem;
-    }
+        &__text {
+            
+            max-width: 691px;
+            font-size: 2.2rem;
+            
+        }
+        &__title {
+            font-size: 2.2rem;
+        }
 }
 
 @media  screen and (max-width: 768px) {
     .chef {
-        
+
         padding: 70px 0;
     }
-    .chef__text {
-        
-        width: 626px;
-        font-size: 2rem;
-        
-    }
-    .chef__title {
-        font-size: 2rem;
-        margin: 20px 0;
-    }
+        &__text {
+            
+            max-width: 626px;
+            font-size: 2rem;
+            
+        }
+        &__title {
+            font-size: 2rem;
+            margin: 20px 0;
+        }
 }
