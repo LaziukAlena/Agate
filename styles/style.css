@@ -26,7 +26,7 @@ a {
 }
 
 :focus-visible {
-  outline: 2px solid #E5A434;
+  outline: 2px solid #e5a434;
   outline-offset: 3px;
 }
 
@@ -48,10 +48,11 @@ a {
   height: 50px;
   border-radius: 50%;
   background: white;
-  color: #AE5F3D;
+  color: #ae5f3d;
   transition: transform 0.2s;
 }
-.up:hover, .up:focus-visible {
+.up:hover,
+.up:focus-visible {
   transform: translateY(-4px);
 }
 .up svg {
@@ -133,12 +134,13 @@ a {
   font-size: 2.2rem;
   white-space: nowrap;
 }
-.menu__item:hover, .menu__item:focus-visible {
-  color: #E5A434;
+.menu__item:hover,
+.menu__item:focus-visible {
+  color: #e5a434;
 }
 .menu__item:not(:last-child)::after {
   content: " ";
-  background-color: #D8D5D5;
+  background-color: #d8d5d5;
   width: 16px;
   height: 1.5px;
   margin-left: 25px;
@@ -213,7 +215,8 @@ a {
   font-size: 2rem;
   transition: transform 0.2s;
 }
-.button:hover, .button:focus-visible {
+.button:hover,
+.button:focus-visible {
   transform: scale(1.05);
 }
 .button--white {
@@ -254,7 +257,7 @@ a {
   }
 }
 .story {
-  background-color: #F3F7EA;
+  background-color: #f3f7ea;
   padding: 100px 0;
 }
 .story__text {
@@ -376,7 +379,12 @@ a {
   justify-content: center;
   margin-bottom: 60px;
 }
-
+@media screen and (max-width: 1250px) {
+  .blog-menu {
+    padding-left: 58px;
+    padding-right: 58px;
+  }
+}
 @media screen and (max-width: 1024px) {
   .blog-menu {
     margin-bottom: 45px;
@@ -417,15 +425,15 @@ a {
 }
 .dishe--red::before {
   content: "HOT!";
-  background-color: #D33B3B;
+  background-color: #d33b3b;
 }
 .dishe--green::before {
   content: "NEW!";
-  background-color: #B3E151;
+  background-color: #b3e151;
 }
 .dishe--orange::before {
   content: "HIT!";
-  background-color: #E5A434;
+  background-color: #e5a434;
 }
 
 @media screen and (max-width: 1024px) {
@@ -530,7 +538,7 @@ a {
 }
 .contacts__operating {
   margin-bottom: 60px;
-  color: #B1B1B1;
+  color: #b1b1b1;
   font-size: 2.5rem;
   font-weight: 300;
 }
@@ -608,7 +616,7 @@ a {
   }
 }
 .chef {
-  background-color: #F3F7EA;
+  background-color: #f3f7ea;
   padding: 100px 0;
   font-weight: 300;
 }
@@ -654,7 +662,8 @@ a {
   height: 50px;
   transition: transform 0.2s;
 }
-.media-link:hover, .media-link:focus-visible {
+.media-link:hover,
+.media-link:focus-visible {
   transform: scale(1.2);
 }
 .media-link:not(:last-child) {
@@ -669,4 +678,3 @@ a {
 .media-link--instagram {
   background: url("../icons/instagram.svg") center/contain no-repeat;
 }
-
