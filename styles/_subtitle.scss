@@ -1,0 +1,16 @@
+.subtitle {
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 1024px) {
+    .subtitle {
+        font-size: 3.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .subtitle {
+        font-size: 3rem;
+    }
+}

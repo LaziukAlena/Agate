@@ -1,0 +1,19 @@
+.picture {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    max-width: 1872px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .picture {
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .picture {
+        gap: 12px;
+    }
+}

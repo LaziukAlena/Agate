@@ -1,0 +1,24 @@
+@mixin paragraph-title($color) {
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: $color;
+}
+
+@mixin button($br-color, $color) {
+    width: 312px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 30px;
+    border: 2px solid;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+    border-color: $br-color;
+    text-align: center;
+    color: $color;
+    margin: 0 auto;
+}
+
+@mixin media($br-image) {
+    background: $br-image center / contain no-repeat;
+}

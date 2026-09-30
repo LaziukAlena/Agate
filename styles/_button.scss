@@ -1,0 +1,29 @@
+@use 'variables' as *;
+@use 'mixins' as *;
+
+.button {
+    font-size: 2rem;
+    transition: transform 0.2s;
+
+    &:hover,
+    &:focus-visible {
+        transform: scale(1.05);
+    }
+
+    &--white {
+        @include button($button--white, $button--white);
+    }
+
+    &--black {
+        @include button($button--black, $button--black);
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .button {
+        width: 248px;
+        height: 48px;
+        line-height: 48px;
+        font-size: 1.7rem;
+    }
+}
